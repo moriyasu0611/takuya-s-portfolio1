@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+/*========= base ===========*/
+
+
+
+html {
+  margin: 0;
+  padding:0;
+}
+
+body {
+  background-image: url("images/001-wrinkled-wall.png");
+  margin: 0;
+  padding: 0;
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+  font-weight: 500;
+  color: #333;
+  line-height: 2.0;
+
+
+}
+h1{
+    font-family: "Hannari";
+}
+h2,h3,h4,h5 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+ul,li,dl,dt,dd {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+a:hover {
+  transition: .3s;
+  opacity: 0.6;
+}
+
+section {
+  margin-bottom: 120px;
+}
+
+.content-wrapper {
+   width: 1400px;
+   margin: 0 auto;
+ }
+
+ .header {
+     width: 100%;
+     position: fixed;
+ }
+ .header-nav{
+     height:100px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .left ul{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .left ul li{
+  margin-right:50px;
+  font-weight: bold;
+ }
+ .mainvisual{
+     height: 600px;
+     position:relative;
+ }
+
+ .mainpicture1 img{
+
+      width: 50%;
+      height: 600px;
+      object-fit: cover;
+      margin-left: 50%;
+      z-index: -1;
+      position: absolute;
+      top: 1px;
+  }
+
+
+  .mainvisual p {
+    font-family: serif;
+    color: gainsboro;
+    font-size: 30px;
+    position: absolute;
+    right:50px;
+  }
+
+
+  }
+  .mainpicture2{
+      height: 600px;
+  }
+  .mainpicture2 img{
+    width: 50%;
+    height: 600px;
+    object-fit: cover;
+    margin-right: 50%;
+    z-index: -1;
+    position: absolute;
+    top: 1px;
+  }
+
+ .gadget{
+     width: 100%;
+     position: relative;
+ }
+ .gadget h2{
+     text-align:center;
+     padding-bottom: 60px;
+     font-family: "Nikukyu";
+ }
+ .gadget ul {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    text-align:center;
+
+ }
+ .gadget ul li{
+     width: 400px;
+ }
+.otoiawase {
+  margin-left: 15px;
+}
+.otoiawase textarea{
+  width: 400px;
+  height: 80px;
+}
+input,textarea{
+  border: 1.5px solid #dee7ec;
+}
